@@ -12,11 +12,6 @@ console.log(isPalindrome('A sacada da casa'));
 console.log(isPalindrome('A torre da derrota'));
 console.log(isPalindrome('Programação'))
 
-// O nome da função deve ser arrayMaxMin;
-// A função deverá receber o array por parâmetro;
-// Sua função deve obrigatoriamente utilizar laço de repetição para percorrer e analisar o array recebido por parâmetro;
-// Sua função deve retornar um novo array onde no índice 0 será apresentado o valor mínimo e no índice 1 o valor máximo.
-
 function arrayMaxMin(arr) {
 
     if (arr.length === 0) {
